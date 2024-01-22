@@ -30,11 +30,11 @@ const Header = () => {
           </Link>
 
           <Link legacyBehavior  href="/posts" >
-            <a  className={isActive("/posts") ? styles.ativado : styles.noAtivate}>Conteudos</a>
+            <a  className={isActive("/posts") ? styles.ativado : styles.noAtivate}>Posts</a>
           </Link>
 
           <Link legacyBehavior href='/sobre'>
-            <a  className={isActive("/sobre") ? styles.ativado : styles.noAtivate}>Sobre Nos</a>
+            <a  className={isActive("/sobre") ? styles.ativado : styles.noAtivate}>About Us</a>
           </Link>
         </nav>
         <a
